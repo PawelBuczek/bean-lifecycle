@@ -23,4 +23,9 @@ class AppConfiguration {
         return new BeanMonitor();
     }
 
+    @Bean
+    public BeanLogger beanLogger() {
+        return new BeanLogger();
+    }
+
 }
